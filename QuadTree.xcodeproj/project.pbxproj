@@ -14,6 +14,11 @@
 		0A29685824DFCB7C007723D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A29685724DFCB7C007723D5 /* Assets.xcassets */; };
 		0A29685B24DFCB7C007723D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A29685924DFCB7C007723D5 /* LaunchScreen.storyboard */; };
 		0A29686624DFCB7D007723D5 /* QuadTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29686524DFCB7D007723D5 /* QuadTreeTests.swift */; };
+		0A29687124DFCBA9007723D5 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687024DFCBA9007723D5 /* QuadTree.swift */; };
+		0A29687324DFCFAC007723D5 /* CGRect+QuadTreeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687224DFCFAC007723D5 /* CGRect+QuadTreeHelper.swift */; };
+		0A29687524E065CF007723D5 /* QuadTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687424E065CF007723D5 /* QuadTreeView.swift */; };
+		0A29687724E0844A007723D5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687624E0844A007723D5 /* MapViewController.swift */; };
+		0A29687924E08BF1007723D5 /* ClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29687824E08BF1007723D5 /* ClusterAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		0A29686124DFCB7D007723D5 /* QuadTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A29686524DFCB7D007723D5 /* QuadTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeTests.swift; sourceTree = "<group>"; };
 		0A29686724DFCB7D007723D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A29687024DFCBA9007723D5 /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+		0A29687224DFCFAC007723D5 /* CGRect+QuadTreeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+QuadTreeHelper.swift"; sourceTree = "<group>"; };
+		0A29687424E065CF007723D5 /* QuadTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeView.swift; sourceTree = "<group>"; };
+		0A29687624E0844A007723D5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0A29687824E08BF1007723D5 /* ClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 				0A29684E24DFCB78007723D5 /* AppDelegate.swift */,
 				0A29685024DFCB78007723D5 /* SceneDelegate.swift */,
 				0A29685224DFCB78007723D5 /* ViewController.swift */,
+				0A29687624E0844A007723D5 /* MapViewController.swift */,
+				0A29687824E08BF1007723D5 /* ClusterAnnotationView.swift */,
+				0A29687424E065CF007723D5 /* QuadTreeView.swift */,
+				0A29687024DFCBA9007723D5 /* QuadTree.swift */,
+				0A29687224DFCFAC007723D5 /* CGRect+QuadTreeHelper.swift */,
 				0A29685424DFCB78007723D5 /* Main.storyboard */,
 				0A29685724DFCB7C007723D5 /* Assets.xcassets */,
 				0A29685924DFCB7C007723D5 /* LaunchScreen.storyboard */,
@@ -200,9 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A29687124DFCBA9007723D5 /* QuadTree.swift in Sources */,
 				0A29685324DFCB78007723D5 /* ViewController.swift in Sources */,
 				0A29684F24DFCB78007723D5 /* AppDelegate.swift in Sources */,
+				0A29687324DFCFAC007723D5 /* CGRect+QuadTreeHelper.swift in Sources */,
 				0A29685124DFCB78007723D5 /* SceneDelegate.swift in Sources */,
+				0A29687524E065CF007723D5 /* QuadTreeView.swift in Sources */,
+				0A29687924E08BF1007723D5 /* ClusterAnnotationView.swift in Sources */,
+				0A29687724E0844A007723D5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
